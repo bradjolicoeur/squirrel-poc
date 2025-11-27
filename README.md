@@ -2,7 +2,7 @@
 
 This repository contains proof-of-concept projects demonstrating the capabilities of the **Squirrel** library for data analysis in .NET. It showcases how to perform data wrangling, analysis, visualization, and reporting tasks on a sample housing dataset, much like you would with Pandas in Python.
 
-The examples are provided as C# scripts (`.csx`), a Polyglot Notebook, and detailed observations in a Markdown file.
+The examples are provided as C# scripts (`.csx`), a Polyglot Notebook, and detailed observations in a [Markdown file](./notebook/squirrel-observations.md).
 
 ## Key Features Demonstrated
 This repository provides a collection of examples that showcase how to use the Squirrel library for a variety of data analysis tasks. The following is a summary of the key features demonstrated in the examples:
@@ -59,6 +59,13 @@ dotnet-script notebook/house-price-analysis.csx
 
 The Jupyter Notebook can be run in a .NET Interactive Notebooks environment.
 
+## Comparisons & Resources
+To better understand how Squirrel fits into the .NET data ecosystem, check out these comparison reports:
+- [Squirrel Observations](./notebook/squirrel-observations.md) - Key observations on using the library for data analysis.
+- [Squirrel vs. Python Pandas](./notebook/squirrel-vs-pandas.md) - A guide for .NET engineers comparing Squirrel to the industry standard.
+- [Squirrel vs. ML.NET DataFrame](./notebook/squirrel-vs-mlnet-dataframe.md) - A comparison with Microsoft's official DataFrame library.
+
 ## References
+- [Official Squirrel Documentation](https://github.com/sudipto80/Squirrel/blob/master/Docs/index.md)
 - [Squirrel GitHub Repository](https://github.com/sudipto80/Squirrel)
 - [Squirrel Demo Video](https://www.youtube.com/watch?v=jv1znNEq5h4)
