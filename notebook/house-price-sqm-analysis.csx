@@ -1,5 +1,5 @@
 #!/usr/bin/env dotnet-script
-#r "nuget: TableAPI, 1.0.4"
+#r "nuget: TableAPI, 1.0.4.1"
 
 using Squirrel;
 using System.IO;
@@ -15,13 +15,13 @@ string html = data.Pick("bedroom_count", "price_per_sqm")
     .ToBarChartByGoogleDataVisualization("bedroom_count", "price_per_sqm", "price", GoogleDataVisualizationcs.BarChartType.Column);
 
 // Write outputs
-File.WriteAllText("price-per-sqm.csv", data.ToCsv());
+File.WriteAllText("house-price-per-sqm.csv", data.ToCsv());
 
-StreamWriter writer = new StreamWriter("housing_chart.html");
+StreamWriter writer = new StreamWriter("house-price-per-sqm_chart.html");
 writer.Write(html);
 writer.Close();
 
 Console.WriteLine("Analysis complete!");
 Console.WriteLine("Generated files:");
-Console.WriteLine("  - price-per-sqm.csv: Processed data with price_per_sqm column");
-Console.WriteLine("  - housing_chart.html: Bar chart visualization");
+Console.WriteLine("  - house-price-per-sqm.csv: Processed data with price_per_sqm column");
+Console.WriteLine("  - house-price-per-sqm_chart.html: Bar chart visualization");
