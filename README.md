@@ -61,9 +61,9 @@ The Jupyter Notebook can be run in a .NET Interactive Notebooks environment.
 
 ## Comparisons & Resources
 To better understand how Squirrel fits into the .NET data ecosystem, check out these comparison reports:
-- [Squirrel Observations](./notebook/squirrel-observations.md) - Key observations on using the library for data analysis.
-- [Squirrel vs. Python Pandas](./notebook/squirrel-vs-pandas.md) - A guide for .NET engineers comparing Squirrel to the industry standard.
-- [Squirrel vs. ML.NET DataFrame](./notebook/squirrel-vs-mlnet-dataframe.md) - A comparison with Microsoft's official DataFrame library.
+- [Squirrel Observations](./docs/squirrel-observations.md) - Key observations on using the library for data analysis.
+- [Squirrel vs. Python Pandas](./docs/squirrel-vs-pandas.md) - A guide for .NET engineers comparing Squirrel to the industry standard.
+- [Squirrel vs. ML.NET DataFrame](./docs/squirrel-vs-mlnet-dataframe.md) - A comparison with Microsoft's official DataFrame library.
 
 ## References
 - [Official Squirrel Documentation](https://github.com/sudipto80/Squirrel/blob/master/Docs/index.md)
